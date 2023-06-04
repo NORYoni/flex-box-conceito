@@ -1,0 +1,50 @@
+body{
+    color: aliceblue;
+    box-sizing: border-box;
+    
+/*É a tag que usamos para aplicar conteudo para as tags filho dentro da tag da qual aplicamos o flex*/
+    display: flex;
+}
+
+.um {
+ background-color: blue;
+ width: 100px;
+ height: 100px;
+ padding: 2%;
+ margin: 2%;
+
+ /* esse é o exemplo de position relative*/
+ position: relative;
+ left: 100px;
+ 
+}
+
+.dois{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    padding: 2%;
+    margin: 2%;
+
+     /* esse é o exemplo de position absolute*/
+    position: absolute;
+    left: 100px;
+    top: 80px;
+}
+
+.tres{
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    padding: 2%;
+    margin: 2%;
+
+    
+
+}
+
+
+
+a{
+    font-family: 'Courier New', Courier, monospace;
+}

@@ -1,0 +1,40 @@
+Page Layouts 
+
+-tables
+-floats e clear
+-frameworks e grid systems
+-flexbox
+-grid
+
+Posicionamentos 
+
+controlar onde, na pagina, o elemento ira ficar, alternando o fluxo normal dos elementos
+
+Name: position
+value: static, relative, absolute, fixed
+
+static é o valor que vem padrao
+
+relative, usando ele vc consegue aplicar 5 tipos de valores, top, right, bottom, left e z-index
+
+absolute altera o posicionamento e tambem a "camada" do objeto, deixando ele uma camada a cima fazendo com que o objeto nao haja no mesmo fluxo que os outros, mesmo se mudar algo dentro da tag pai
+
+fixed cria um novo contexto do mesmo modelo do absolute, porem fica fixo na pagina enquanto tu escrola ela
+
+element stacking utiliza da tag z-index para alterar as camadas do absolute e meio que empilhar os elementos e falar oq esta acima de que
+
+Flex-box
+
+nos permite posicionar elementos dentro da caixa, controle em uma dimensão (horizontal ou vertical)
+alinhamento, direcionamento, ordernar e tamanho
+
+flex-direction
+qual a direção do flex: horizontal=row e vertical=colum
+
+alinhamento:
+justify-content
+alingn-items
+
+Grid
+
+posicionamento dos elementos dentro da caixa,posicionamento horizontal e vertical ao mesmo tempo, pode ser flexivel ou fixo, cria espaços os elementos filhos habitarem
